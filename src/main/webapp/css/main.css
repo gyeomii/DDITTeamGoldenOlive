@@ -1,7 +1,29 @@
 @charset "UTF-8";
-.mainBg1{
-    background: url("../images/main_bg_1.png");
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-size: 14px;
+    margin: 0px;
+  }
+.mainBg1 img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+    display: block;
 }
-.mainBg2{
-    background: url("../images/main_bg_2.png");
+.mainBg2 img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+    display: block;
+}
+.mainBg3 img{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+    display: block;
 }
