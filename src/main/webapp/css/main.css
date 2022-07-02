@@ -4,86 +4,59 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-html,
-body {
   width: 100%;
-  height: 100%
+  height: 100%;
 }
-
 .wrapper {
   width: 100%;
-  content: "";
-  background-image: url('../images/content_bg01_sp.jpg');
-  background-size: cover;
-  position: relative;
-  padding-bottom: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .mainBg1 {
   width: 100%;
-  height: 1080px;
+  height: 100%;
   background-image: url('../images/main_bg_1.png');
-  background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
+  background-position: center center;
+  background-size: 100% 100%;
 }
 
 .mainBg2 {
   width: 100%;
-  height: 1080px;
+  height: 100%;
   background-image: url('../images/main_bg_2.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  top: 1080px;
+  background-size: 100% 100%;
 }
 
 .mainBg3 {
   width: 100%;
-  height: 1080px;
+  height: 100%;
   background-image: url('../images/main_bg_3.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  top: 1080px;
+  background-size: 100% 100%;
 }
 .registWrapper{
+  padding-top: 16%;
+  padding-left: 3%;
 	text-align: center;
-  width: 100%;
-  height: auto;
   background-position: center center;
-  position: relative;
 }
-input{
+.inputReg{
   font-size: 3em;
-}
-.inputReg1 {
   width: 30%;
-  position: absolute;
-  top: 360px;
-  left: 40%;
+  height: 8%;
+  margin : 0.5%;
 }
-.inputReg2 {
-  width: 30%;
-  position: absolute;
-  top: 440px;
-  left: 40%;
-}
-.inputReg3 {
-  width: 30%;
-  position: absolute;
-  top: 520px;
-  left: 40%;
-}
-
 .registBtn{
+ padding-top: 3%;
  background-color: transparent;
  border: 0;
- position: relative;
- top: 650px;
+ width: 15%;
+ height: 30%;
 }
