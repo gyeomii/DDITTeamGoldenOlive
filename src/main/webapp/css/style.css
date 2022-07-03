@@ -894,7 +894,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
+  background-image: url('../images/footer_bg_sp.png');
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
