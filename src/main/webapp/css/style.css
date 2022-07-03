@@ -399,6 +399,7 @@ a:focus {
 .offer_section {
   position: relative;
   padding-top: 45px;
+  background-image: url('../images/content_bg01_pc.jpg');
 }
 
 .offer_section .box {
@@ -411,7 +412,7 @@ a:focus {
   margin-top: 45px;
   border-radius: 5px;
   padding: 20px 15px;
-  background-color: white;
+  background-image: url('../images/content_bg01_pc.jpg');
   color: #ffffff;
 }
 
@@ -664,6 +665,7 @@ a:focus {
 
 .book_section {
   position: relative;
+  background-image: url('../images/content_bg01_pc.jpg');
 }
 
 .book_section .heading_container {
@@ -731,6 +733,9 @@ a:focus {
 }
 
 /* client section start */
+.client_section{
+  background-image: url('../images/content_bg01_pc.jpg');
+}
 .client_section .heading_container {
   margin-bottom: 30px;
 }
