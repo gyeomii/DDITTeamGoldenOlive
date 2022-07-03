@@ -35,6 +35,17 @@ $(document).ready(function() {
   });
 
 /** google_map js **/
+$(document).ready(function(){
+    $('#registBtn').css({'backgroundColor':'#999','color':'#ffffff'}).prop('disabled',true);
+});
+
+$('#agreeCheck').on('click',function(){
+    if($('#agreeCheck').prop('checked')){
+        $('#registBtn').css({'backgroundColor':'','color':''}).prop('disabled',false);
+    }else{
+        $('#registBtn').css({'backgroundColor':'#999','color':'#ffffff'}).prop('disabled',true);
+    }
+});
 
 // client section owl carousel
 $(".client_owl-carousel").owlCarousel({
